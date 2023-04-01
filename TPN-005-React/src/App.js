@@ -27,8 +27,6 @@ function App() {
   return (
     <div className="App">
       <h1>Contador</h1>
-      {win && (<h1 className='rojo'>{contador}</h1>)}
-      {!win && (<h1 className='negro'>{contador}</h1>)}
       <div className='botones'>
         
         <button onClick={disminuir} className='btnR'>Disminuir</button>
