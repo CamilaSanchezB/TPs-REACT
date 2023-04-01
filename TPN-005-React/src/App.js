@@ -27,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1>Contador</h1>
+      <h1>{contador}</h1>
       <div className='botones'>
         
         <button onClick={disminuir} className='btnR'>Disminuir</button>
