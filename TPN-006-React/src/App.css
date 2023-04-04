@@ -1,0 +1,47 @@
+.botonAgregar{
+  background-color: green;
+  font-size: 20px;
+}
+.boton{
+  color:white;
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+  
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+.boton:hover{
+  transform: scale(1.2);
+}
+.botonEliminar{
+  background-color: red;
+  font-size: 15px;
+}
+.botonEditar{
+  background-color: rgb(8, 137, 197);
+  font-size: 15px;
+  
+}
+
+.borde{
+  border: 1px solid black;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+td{
+  height: 3em;
+}
+th, td{
+  padding: 0.5em;
+}
+thead{
+  background-color: rgb(253, 235, 154);
+}
