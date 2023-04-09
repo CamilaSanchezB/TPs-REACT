@@ -1,0 +1,12 @@
+.card{
+  width: 65%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.App{
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 90vh; /* Altura del contenedor */
+}
