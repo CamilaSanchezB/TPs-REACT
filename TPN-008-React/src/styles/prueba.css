@@ -1,0 +1,74 @@
+.prueba legend{
+    background-color: #ee382e!important;
+    min-width: 55%;
+}
+.prueba legend:hover{
+    transform: scale(1.05);
+    background-color: #ff4a31!important;
+}
+.prueba legend a{
+    color: rgb(255, 254, 254)!important;
+}
+.prueba1 legend a{
+    color: rgb(255, 254, 254)!important;
+}
+
+.prueba1 legend{
+    background-color: #21b959!important;
+    min-width: 55%;
+}
+.prueba1 legend:hover{
+    transform: scale(1.05);
+    background-color: #22c85f!important;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 0 10%;
+  }
+  
+
+  .flexResponsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .flexSingle {
+    flex: 1;
+  }
+  
+  .flexGroup {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .flexResponsive {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+    .flexSingle{
+        margin-bottom: 1em;
+    }
+    .container1 {
+        grid-template-columns: 1fr; 
+        margin-bottom: 1em;
+      }
+
+  }
+.p-menubar-button{
+    display: none!important;
+}
